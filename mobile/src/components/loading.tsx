@@ -8,8 +8,9 @@ export function Loading() {
 				justifyContent: 'center',
 				alignItems: 'center',
 				backgroundColor: '#09090A',
-			}}>
-			<ActivityIndicator color='#7c3aed' />
+			}}
+		>
+			<ActivityIndicator color="#7c3aed" />
 		</View>
 	);
 }
