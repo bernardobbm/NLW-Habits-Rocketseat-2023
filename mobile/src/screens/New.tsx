@@ -16,8 +16,6 @@ const availableWeekDays = [
 	'Sábado',
 ];
 
-// tela de cadastro de habitos
-
 export function New() {
 	const [weekDays, setWeekDays] = useState<number[]>([]);
 
@@ -42,7 +40,7 @@ export function New() {
 				<Text className="mt-6 text-white font-semibold text-base">Qual seu comprometimento?</Text>
 
 				<TextInput
-					className="h-12 pl-4 rounded-lg mt-3 bg-zinc-800 text-white focus:border-2 focus:border-green-600"
+					className="h-12 pl-4 rounded-lg mt-3 bg-zinc-900 text-white focus:border-2 border-2 border-zinc-800 focus:border-green-600"
 					placeholder="ex.: Exercícios, dormir bem, etc..."
 					placeholderTextColor={colors.zinc[400]}
 				/>
